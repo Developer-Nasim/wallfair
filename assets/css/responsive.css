@@ -1,0 +1,157 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .progs p span {
+        width: 15%;
+    }
+    .menus a.btn { 
+        padding: 6px 20px; 
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .menus ul li { 
+        margin-right: 10px;
+    }
+    .footer-blk {
+        text-align: center;
+    }
+    .footer-blk ul li {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .footer-social {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .logo-area a { 
+        max-width: 180px; 
+    }
+    .progs p span {
+        width: 15%;
+    }
+    .header-bottom { 
+        margin-top: 20px;
+        padding: 10px 0;
+    }
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    body { 
+        padding-bottom: 0px;
+    }
+    .header-bottom { 
+        margin-top: 10px;
+        padding: 10px 0;
+    }
+    .logo-area a { 
+        max-width: 110px; 
+    }
+ 
+    .menus ul li { 
+        margin-right: 10px;
+    }
+    .blk.welcome {
+        display: block;
+        align-items: center; 
+    }
+    .img-blk{
+        margin-bottom: 30px;
+    } 
+    .footer-area{
+        position: unset;
+        padding: 30px 0;
+    }
+    .footer-blk {
+        text-align: center;
+    }
+    .footer-blk ul li {
+        margin-top: 0;
+    }
+    .footer-social {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .footer-blk p {
+        display: inline-block;
+        margin-right: 0px;
+    } 
+    .footer-blk .dropdown { 
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .footer-social li a {
+        margin: 2px;
+        width: 30px;
+        height: 30px; 
+        line-height: 30px; 
+        font-size: 13px;
+    }
+    .currencys {
+        display: block;  
+    }
+    .crc-blk {
+        width: 100%;  
+    }
+    .progs p span {
+        width: 20%;
+        font-size: 9px;
+    } 
+    .details {
+        display: block;
+        padding-bottom: 15px;
+    }
+    .details p {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .sign-form a.logo { 
+        width: 150px;  
+    }
+    .sign-form a.logo img{ 
+        width: 150px;  
+    }
+    .sign-form form { 
+        padding: 20px; 
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    .sign-form form h2 {
+        font-size: 34px; 
+    }
+    .sign-form form p {
+        font-size: 15px;  
+    }
+    .sign-form form input { 
+        height: 40px;
+        margin-bottom: 15px;
+        border-radius: 3px; 
+        padding: 10px; 
+    }
+    .ckb { 
+        padding-left: 25px; 
+    } 
+    .sign-form form button.theme-btn { 
+        margin-bottom: 25px;
+    }
+
+
+
+
+} 
